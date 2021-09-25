@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: circle;
+        }
+        .disc{
+            list-style-type: disc;
+        }
+        .circle{
+            list-style-type: circle;
+        }
+        .square{
+            list-style-type: square;
+        }
+        .none{
+            list-style-type: "\2601";
+        }
+        .A{
+            list-style-type: upper-alpha;
+        }
+        .a{
+            list-style-type: lower-alpha;
+        }
+        .I{
+            list-style-type: upper-roman;
+        }
+        .i{
+            list-style-type: lower-roman;
+        }
+    </style>
+</head>
+<body>
+    <!--unordered list-->
+    <ul class="disc">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul class="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul class="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul class="none">
+        <li>&#9733; Item 1</li>
+        <li>&#9733; Item 2</li>
+        <ul class="none">
+            <li>&#9733; Item 1</li>
+            <li>&#9733; Item 2</li>
+            <li>&#9733; Item 3</li>
+        </ul>
+        <li>&#9733; Item 3</li>
+    </ul>
+    <!--ordered list-->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol class="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol class="a">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol class="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol class="i">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <table border="1" width="100%" cellpadding="5">
+       <tr>
+           <th rowspan="2">Ячейка 1</th>
+           <td>Ячейка 2</td>
+       </tr>
+       <tr>
+           <td>Ячейка 3</td>
+
+       </tr>
+       <tr>
+        <td colspan="2">Ячейка 5</td>
+    </tr>
+    </table>
+    <table border="2" width="100%">
+        <tr>
+            <th rowspan="2">1</th>
+            <th colspan="2">2</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        
+    </table>
+</body>
+</html>
